@@ -7,6 +7,7 @@
     - [running docker](#running-docker)
     - [stopping docker](#stopping-docker)
     - [push to docker hub](#push-to-docker-hub)
+  - [Links](#links)
   - [Usage](#usage)
     - [Authenticating](#authenticating)
     - [Adding](#adding)
@@ -17,8 +18,6 @@
     - [Evidence](#evidence)
       - [Application Image in DockerHub](#application-image-in-dockerhub)
       - [Application running in Docker](#application-running-in-docker)
-
-github: https://github.com/Kushan-Nilanga/calculator
 
 ## Dependancies
 1. Docker
@@ -40,7 +39,9 @@ docker build -t calculator .
 docker tag calculator:latest dknathalage/calculator:latest
 docker push dknathalage/calculator:latest
 
-https://hub.docker.com/r/dknathalage/calculator
+## Links 
+- [Github: https://github.com/Kushan-Nilanga/sit323-737-2023-t1-prac5p](https://github.com/Kushan-Nilanga/sit323-737-2023-t1-prac5p)
+- [DockerHub https://hub.docker.com/r/dknathalage/calculator](https://hub.docker.com/r/dknathalage/calculator)
 
 ## Usage
 
